@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { ChartsModule } from 'ng2-charts';
 
 
 import { RegistroComponent } from './pages/registro/registro.component';
@@ -31,7 +31,8 @@ import { GraficasComponent } from './pages/graficas/graficas.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartsModule
     
   ],
   providers: [],
